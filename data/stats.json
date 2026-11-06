@@ -1,0 +1,39 @@
+{
+  "updated_at": "2026-11-06T20:15:09+03:30",
+  "summary": {
+    "active_configs": 0,
+    "active_proxies": 937,
+    "countries_count": 0,
+    "total_donors": 1,
+    "protocols": {
+      "proxy": 913,
+      "webproxy": 23,
+      "socks": 1
+    },
+    "countries": [
+      {
+        "code": "XX",
+        "name": "Unknown",
+        "configs_count": 0,
+        "proxies_count": 937,
+        "avg_ping": 207,
+        "total": 937
+      }
+    ]
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "name": "𝓝𝓸𝓸𝓻𝓪",
+      "handle": "@Noo***",
+      "active_configs": 0,
+      "active_proxies": 1,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 1,
+      "verified_total": 1,
+      "active_total": 1
+    }
+  ]
+}
