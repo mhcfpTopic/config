@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>MahsaServer — Top Donors & Network Radar</title>
+  <link rel="icon" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="https://www.mahsaserver.com/" target="_blank" rel="noopener" class="brand">
+        <img
+          src="favicon.png"
+          alt="MahsaServer"
+          class="brand-icon"
+          onerror="this.style.display='none'"
+        />
+        <div class="brand-text">
+          <span class="brand-title">MahsaServer</span>
+          <span class="brand-sub">Collector Network</span>
+        </div>
+      </a>
+
+      <nav class="nav-tabs" role="tablist">
+        <button class="nav-tab active" data-tab="donors" role="tab">Top Donors</button>
+        <button class="nav-tab" data-tab="explorer" role="tab">Nodes Explorer</button>
+        <button class="nav-tab" data-tab="radar" role="tab">Radar &amp; Stats</button>
+      </nav>
+
+      <div class="sync-status">
+        <span class="status-dot" id="status-dot"></span>
+        <span class="sync-time" id="updated-at">Syncing...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <span class="kpi-label">Active Configs</span>
+        <strong class="kpi-value" id="kpi-configs">0</strong>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Active Proxies</span>
+        <strong class="kpi-value" id="kpi-proxies">0</strong>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Locations</span>
+        <strong class="kpi-value" id="kpi-countries">0</strong>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Verified Donors</span>
+        <strong class="kpi-value" id="kpi-donors">0</strong>
+      </div>
+    </section>
+
+    <section class="quick-access-bar">
+      <div class="sub-links-group">
+        <span class="sub-links-label">Quick Subscriptions:</span>
+        <button id="copy-sub-xray-btn" class="btn-sub" title="Copy raw subscription URL for healthy Xray/V2Ray nodes">
+          <span>⚡</span> Copy Xray Sub Link
+        </button>
+        <button id="copy-sub-proxy-btn" class="btn-sub" title="Copy raw URL for healthy Telegram proxies">
+          <span>✈️</span> Copy Proxies URL
+        </button>
+      </div>
+      <div class="sub-links-group">
+        <button id="copy-all-nodes-btn" class="btn-outline-sm" title="Copy all working configurations and proxies">
+          Copy All Active Nodes
+        </button>
+      </div>
+    </section>
+
+    <section id="tab-donors" class="tab-panel active">
+      <div class="panel-header">
+        <div>
+          <h1 class="panel-title">Verified Donors Leaderboard</h1>
+          <p class="panel-desc">Ranked strictly by configurations, subscriptions, files, and proxies that passed live connectivity verification.</p>
+        </div>
+        <div class="controls-row">
+          <div class="segmented-control" id="donor-sort-group">
+            <button class="seg-btn active" data-sort="active">Active Now</button>
+            <button class="seg-btn" data-sort="total">All-Time Verified</button>
+          </div>
+          <input
+            type="search"
+            id="donor-search"
+            class="input-search"
+            placeholder="Search donor..."
+            autocomplete="off"
+          />
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th class="col-rank">#</th>
+              <th>Donor</th>
+              <th class="num">Active Now</th>
+              <th class="num">Total Verified</th>
+              <th class="num hide-sm">Configs</th>
+              <th class="num hide-sm">Sub Links</th>
+              <th class="num hide-sm">Files</th>
+              <th class="num hide-sm">Proxies</th>
+            </tr>
+          </thead>
+          <tbody id="donors-tbody">
+            <tr>
+              <td colspan="8" class="empty-cell">Loading verified donor records...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="tab-explorer" class="tab-panel">
+      <div class="panel-header">
+        <div>
+          <h1 class="panel-title">Verified Nodes Explorer</h1>
+          <p class="panel-desc">Filter healthy configurations and Telegram proxies by location and protocol. Original tags are preserved.</p>
+        </div>
+        <div class="controls-row">
+          <input
+            type="search"
+            id="node-search"
+            class="input-search"
+            placeholder="Search tag, country or protocol..."
+            autocomplete="off"
+          />
+          <button id="copy-filtered-btn" class="btn-primary">Copy Filtered (0)</button>
+        </div>
+      </div>
+
+      <div class="filter-bar">
+        <div class="filter-group">
+          <span class="filter-label">Location</span>
+          <div class="pill-list" id="country-pills"></div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Protocol</span>
+          <div class="pill-list" id="protocol-pills"></div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Location</th>
+              <th>Protocol</th>
+              <th>Original Tag</th>
+              <th class="num">Ping</th>
+              <th class="col-action">Action</th>
+            </tr>
+          </thead>
+          <tbody id="nodes-tbody">
+            <tr>
+              <td colspan="5" class="empty-cell">Loading verified nodes...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="load-more-wrap" id="load-more-wrap" style="display: none;">
+        <button id="load-more-btn" class="btn-secondary">Show More Nodes</button>
+      </div>
+    </section>
+
+    <section id="tab-radar" class="tab-panel">
+      <div class="radar-grid">
+        <div class="radar-card">
+          <div class="card-header">
+            <h2 class="card-title">Distribution by Location</h2>
+            <span class="card-sub">Click a location to inspect its nodes</span>
+          </div>
+          <div class="table-wrap borderless">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Country</th>
+                  <th class="num">Configs</th>
+                  <th class="num">Proxies</th>
+                  <th class="num">Avg Ping</th>
+                </tr>
+              </thead>
+              <tbody id="countries-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="radar-card">
+          <div class="card-header">
+            <h2 class="card-title">Protocol Breakdown</h2>
+            <span class="card-sub">Active verified endpoints per protocol</span>
+          </div>
+          <div id="protocols-list" class="protocol-bars"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>&copy; 2026 MahsaNet — Liberated Internet for Everyone.</span>
+      <div class="footer-links">
+        <a href="https://www.mahsaserver.com/" target="_blank" rel="noopener">MahsaServer</a>
+        <a href="./data/stats.json" target="_blank" rel="noopener">Stats JSON</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" aria-live="polite">Copied to clipboard</div>
+  <script src="./app.js"></script>
+</body>
+</html>
