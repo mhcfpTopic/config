@@ -73,6 +73,35 @@
     }
   }
 
+  function telegramImportUrl(link) {
+    try {
+      const parsed = new URL(String(link || "").trim());
+      let kind = "";
+      let params;
+
+      if (parsed.protocol === "tg:") {
+        kind = parsed.hostname.toLowerCase();
+        params = new URLSearchParams(parsed.search);
+      } else if (
+        (parsed.protocol === "https:" || parsed.protocol === "http:") &&
+        (parsed.hostname === "t.me" || parsed.hostname === "www.t.me")
+      ) {
+        kind = parsed.pathname.split("/").filter(Boolean)[0]?.toLowerCase() || "";
+        params = new URLSearchParams(parsed.search);
+      } else {
+        return null;
+      }
+
+      if (!["proxy", "socks"].includes(kind)) return null;
+      if (!params.get("server") || !params.get("port")) return null;
+      if (kind === "proxy" && !params.get("secret")) return null;
+
+      return `https://t.me/${kind}?${params.toString()}`;
+    } catch (_) {
+      return null;
+    }
+  }
+
   function pingClass(ms) {
     if (!ms || ms <= 0) return "";
     if (ms < 250) return "ping-good";
@@ -208,35 +237,27 @@
   function renderNodesTable() {
     const tbody = document.getElementById("nodes-tbody");
     const moreWrap = document.getElementById("load-more-wrap");
-
     if (!state.filteredNodes.length) {
       tbody.innerHTML = '<tr><td colspan="5" class="empty-cell">No verified nodes match the current filter.</td></tr>';
       moreWrap.style.display = "none";
       return;
     }
-
     const slice = state.filteredNodes.slice(0, state.visibleLimit);
-    tbody.innerHTML = slice
-      .map(
-        (n, idx) => `
+    tbody.innerHTML = slice.map((n, idx) => {
+      const telegramUrl = telegramImportUrl(n.link);
+      const latency = n.ping_ms ? `${Number(n.ping_ms).toFixed(1)} ms <span class="latency-kind">${escapeHtml(n.ping_type || "Latency")}</span>` : "—";
+      return `
         <tr>
-          <td>
-            <div class="badge-country">
-              <span class="country-iso">${escapeHtml(n.country_code)}</span>
-              <span>${escapeHtml(n.country_name)}</span>
-            </div>
-          </td>
+          <td><div class="badge-country"><span class="country-iso">${escapeHtml(n.country_code)}</span><span>${escapeHtml(n.country_name)}</span></div></td>
           <td><span class="badge-proto">${escapeHtml(n.protocol)}</span></td>
           <td class="tag-cell" title="${escapeHtml(n.tag)}">${escapeHtml(n.tag)}</td>
-          <td class="num ${pingClass(n.ping_ms)}">${n.ping_ms ? `${n.ping_ms} ms` : "—"}</td>
-          <td class="col-action">
-            <button class="btn-copy" data-node-idx="${idx}">Copy</button>
-          </td>
-        </tr>
-      `
-      )
-      .join("");
-
+          <td class="num ${pingClass(n.ping_ms)}">${latency}</td>
+          <td class="col-action"><div style="display:flex;align-items:center;justify-content:flex-end;gap:6px;white-space:nowrap">
+            <button class="btn-copy" data-node-idx="${idx}" type="button">Copy</button>
+            ${telegramUrl ? `<a class="btn-copy" style="display:inline-flex;align-items:center;text-decoration:none" href="${escapeHtml(telegramUrl)}" target="_blank" rel="noopener noreferrer" title="Import this proxy in Telegram">Telegram</a>` : ""}
+          </div></td>
+        </tr>`;
+    }).join("");
     moreWrap.style.display = state.filteredNodes.length > state.visibleLimit ? "flex" : "none";
   }
 
@@ -261,7 +282,7 @@
             </td>
             <td class="num">${(c.configs_count || 0).toLocaleString()}</td>
             <td class="num">${(c.proxies_count || 0).toLocaleString()}</td>
-            <td class="num ${pingClass(c.avg_ping)}">${c.avg_ping ? `${c.avg_ping} ms` : "—"}</td>
+            <td class="num country-latency">CFG ${c.avg_config_ping ? `${Number(c.avg_config_ping).toFixed(1)} ms` : "—"}<br>PROXY ${c.avg_proxy_ping ? `${Number(c.avg_proxy_ping).toFixed(1)} ms` : "—"}</td>
           </tr>
         `
         )
@@ -425,6 +446,7 @@
           country_code: String(c.country_code || "UN").toUpperCase(),
           country_name: String(c.country_name || "Location unavailable"),
           ping_ms: Number(c.ping_ms || 0),
+          ping_type: String(c.ping_type || "HTTP tunnel"),
           tag: extractOriginalTag(c.link, c.protocol),
         }));
         const prxs = (cfgData.proxies || []).map((p) => {
@@ -435,6 +457,7 @@
             country_code: String(p.country_code || "UN").toUpperCase(),
             country_name: String(p.country_name || "Location unavailable"),
             ping_ms: Number(p.ping_ms || 0),
+            ping_type: String(p.ping_type || (kindOrProto === "socks" ? "SOCKS tunnel" : "TCP connect")),
             tag: p.link && p.link.includes("#") ? extractOriginalTag(p.link, kindOrProto) : `Telegram ${kindOrProto.toUpperCase()}`,
           };
         });
