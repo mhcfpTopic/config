@@ -125,13 +125,19 @@
       .map((d, idx) => {
         const rank = idx + 1;
         const rankCls = rank <= 3 ? `rank-badge rank-${rank}` : "rank-badge";
+        const donorId = d.user_id != null ? String(d.user_id) : "";
+        const profileUrl = donorId ? `tg://user?id=${encodeURIComponent(donorId)}` : "";
+        const donorName = escapeHtml(d.name || "Unknown user");
         return `
           <tr>
             <td class="col-rank"><span class="${rankCls}">${rank}</span></td>
             <td>
               <div class="donor-cell">
-                <span class="donor-name">${escapeHtml(d.name)}</span>
+                ${profileUrl
+                  ? `<a class="donor-name donor-profile-link" href="${profileUrl}" title="Open Telegram profile">${donorName}</a>`
+                  : `<span class="donor-name">${donorName}</span>`}
                 ${d.handle ? `<span class="donor-handle">${escapeHtml(d.handle)}</span>` : ""}
+                ${donorId ? `<span class="donor-id">ID ${escapeHtml(donorId)}</span>` : ""}
               </div>
             </td>
             <td class="num ping-good">${(d.active_total || 0).toLocaleString()}</td>
@@ -416,8 +422,8 @@
         const cfgs = (cfgData.configs || []).map((c) => ({
           link: c.link,
           protocol: String(c.protocol || "xray").toLowerCase(),
-          country_code: String(c.country_code || "XX").toUpperCase(),
-          country_name: String(c.country_name || "Unknown"),
+          country_code: String(c.country_code || "UN").toUpperCase(),
+          country_name: String(c.country_name || "Location unavailable"),
           ping_ms: Number(c.ping_ms || 0),
           tag: extractOriginalTag(c.link, c.protocol),
         }));
@@ -426,8 +432,8 @@
           return {
             link: p.link,
             protocol: kindOrProto,
-            country_code: String(p.country_code || "XX").toUpperCase(),
-            country_name: String(p.country_name || "Unknown"),
+            country_code: String(p.country_code || "UN").toUpperCase(),
+            country_name: String(p.country_name || "Location unavailable"),
             ping_ms: Number(p.ping_ms || 0),
             tag: p.link && p.link.includes("#") ? extractOriginalTag(p.link, kindOrProto) : `Telegram ${kindOrProto.toUpperCase()}`,
           };

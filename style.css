@@ -725,3 +725,23 @@ body {
     display: none;
   }
 }
+
+/* Donor identity: retain the existing typography and restrained palette. */
+.donor-profile-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  text-underline-offset: 3px;
+}
+.donor-profile-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.donor-id {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+.donor-cell {
+  flex-wrap: wrap;
+}
