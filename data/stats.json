@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T04:15:22+03:30",
+  "updated_at": "2026-11-07T08:15:12+03:30",
   "summary": {
     "active_configs": 944,
-    "active_proxies": 939,
+    "active_proxies": 942,
     "countries_count": 0,
     "total_donors": 14,
     "protocols": {
@@ -11,7 +11,7 @@
       "xray:hy2": 5,
       "xray:trojan": 82,
       "xray:vmess": 94,
-      "telegram-proxy:proxy": 916,
+      "telegram-proxy:proxy": 919,
       "telegram-proxy:webproxy": 22,
       "telegram-proxy:socks": 1
     },
@@ -20,10 +20,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 944,
-        "proxies_count": 939,
+        "proxies_count": 942,
         "avg_config_ping": 127.8,
-        "avg_proxy_ping": 118.7,
-        "total": 1883
+        "avg_proxy_ping": 109.2,
+        "total": 1886
       }
     ]
   },
@@ -58,6 +58,20 @@
     },
     {
       "rank": 3,
+      "user_id": 8247516155,
+      "name": "آرع شاید",
+      "handle": "@Areshayad",
+      "active_configs": 0,
+      "active_proxies": 10,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 10,
+      "verified_total": 10,
+      "active_total": 10
+    },
+    {
+      "rank": 4,
       "user_id": 7443311197,
       "name": "Ramin",
       "handle": "",
@@ -71,7 +85,7 @@
       "active_total": 5
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user_id": 2069393054,
       "name": "꧁𝐀᷍𝐁᷍𝐎᷍𝐙᷍𝐀᷍𝐑᷍꧂ 𝟚𝟘:𝟝𝟙",
       "handle": "@ownerMOONCITYgroup",
@@ -85,7 +99,7 @@
       "active_total": 4
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user_id": 6216104224,
       "name": "𝗦𝘂𝗽 𝗠𝗶𝗴𝗠𝗶𝗴𝗩𝗣𝗡",
       "handle": "@MigMigVPNSupport",
@@ -95,20 +109,6 @@
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 0,
-      "verified_total": 4,
-      "active_total": 4
-    },
-    {
-      "rank": 6,
-      "user_id": 8247516155,
-      "name": "آرع شاید",
-      "handle": "@Areshayad",
-      "active_configs": 0,
-      "active_proxies": 4,
-      "verified_configs": 0,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 4,
       "verified_total": 4,
       "active_total": 4
     },
