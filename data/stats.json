@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-07T02:10:31+03:30",
+  "updated_at": "2026-11-07T04:15:22+03:30",
   "summary": {
     "active_configs": 944,
     "active_proxies": 939,
     "countries_count": 0,
-    "total_donors": 13,
+    "total_donors": 14,
     "protocols": {
       "xray:vless": 595,
       "xray:ss": 168,
@@ -22,7 +22,7 @@
         "configs_count": 944,
         "proxies_count": 939,
         "avg_config_ping": 127.8,
-        "avg_proxy_ping": 74.7,
+        "avg_proxy_ping": 118.7,
         "total": 1883
       }
     ]
@@ -184,6 +184,20 @@
     },
     {
       "rank": 12,
+      "user_id": 5636352593,
+      "name": "Taha",
+      "handle": "@TAHA148pro",
+      "active_configs": 0,
+      "active_proxies": 1,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 1,
+      "verified_total": 1,
+      "active_total": 1
+    },
+    {
+      "rank": 13,
       "user_id": 6410080561,
       "name": "ADMIN 🟢",
       "handle": "@daily_configs_admin",
@@ -197,7 +211,7 @@
       "active_total": 1
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user_id": 8814258238,
       "name": "𝓝𝓸𝓸𝓻𝓪",
       "handle": "@Noooraa2003",
