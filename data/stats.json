@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T04:15:44+03:30",
+  "updated_at": "2026-11-08T08:15:46+03:30",
   "summary": {
     "active_configs": 2098,
-    "active_proxies": 992,
+    "active_proxies": 987,
     "countries_count": 0,
     "total_donors": 37,
     "protocols": {
@@ -11,8 +11,8 @@
       "xray:hy2": 173,
       "xray:ss": 326,
       "xray:vmess": 235,
-      "telegram-proxy:proxy": 963,
-      "telegram-proxy:webproxy": 28,
+      "telegram-proxy:proxy": 959,
+      "telegram-proxy:webproxy": 27,
       "telegram-proxy:socks": 1
     },
     "countries": [
@@ -20,10 +20,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 2098,
-        "proxies_count": 992,
+        "proxies_count": 987,
         "avg_config_ping": 163.5,
-        "avg_proxy_ping": 77.1,
-        "total": 3090
+        "avg_proxy_ping": 82.4,
+        "total": 3085
       }
     ]
   },
@@ -48,13 +48,13 @@
       "name": "𝐊𝐚𝐦𝐲𝐚𝐫",
       "handle": "@kamyar_Am2",
       "active_configs": 44,
-      "active_proxies": 12,
+      "active_proxies": 13,
       "verified_configs": 0,
       "verified_subs": 44,
       "verified_files": 0,
-      "verified_proxies": 12,
-      "verified_total": 56,
-      "active_total": 56
+      "verified_proxies": 13,
+      "verified_total": 57,
+      "active_total": 57
     },
     {
       "rank": 3,
@@ -160,13 +160,13 @@
       "name": "⁪⁬⁮⁮",
       "handle": "@Manambiname",
       "active_configs": 0,
-      "active_proxies": 11,
+      "active_proxies": 10,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 11,
       "verified_total": 11,
-      "active_total": 11
+      "active_total": 10
     },
     {
       "rank": 11,
@@ -366,20 +366,6 @@
     },
     {
       "rank": 25,
-      "user_id": 5493948300,
-      "name": "M C",
-      "handle": "@WoW_GLG",
-      "active_configs": 0,
-      "active_proxies": 2,
-      "verified_configs": 0,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 2,
-      "verified_total": 2,
-      "active_total": 2
-    },
-    {
-      "rank": 26,
       "user_id": 5636352593,
       "name": "Taha",
       "handle": "@TAHA148pro",
@@ -393,7 +379,7 @@
       "active_total": 2
     },
     {
-      "rank": 27,
+      "rank": 26,
       "user_id": 7443311197,
       "name": "Ramin",
       "handle": "",
@@ -404,6 +390,20 @@
       "verified_files": 0,
       "verified_proxies": 0,
       "verified_total": 5,
+      "active_total": 1
+    },
+    {
+      "rank": 27,
+      "user_id": 5493948300,
+      "name": "M C",
+      "handle": "@WoW_GLG",
+      "active_configs": 0,
+      "active_proxies": 1,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 2,
+      "verified_total": 2,
       "active_total": 1
     },
     {
