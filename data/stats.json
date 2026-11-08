@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T02:17:02+03:30",
+  "updated_at": "2026-11-08T04:15:44+03:30",
   "summary": {
     "active_configs": 2098,
-    "active_proxies": 1017,
+    "active_proxies": 992,
     "countries_count": 0,
     "total_donors": 37,
     "protocols": {
@@ -11,7 +11,7 @@
       "xray:hy2": 173,
       "xray:ss": 326,
       "xray:vmess": 235,
-      "telegram-proxy:proxy": 988,
+      "telegram-proxy:proxy": 963,
       "telegram-proxy:webproxy": 28,
       "telegram-proxy:socks": 1
     },
@@ -20,10 +20,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 2098,
-        "proxies_count": 1017,
+        "proxies_count": 992,
         "avg_config_ping": 163.5,
-        "avg_proxy_ping": 104.0,
-        "total": 3115
+        "avg_proxy_ping": 77.1,
+        "total": 3090
       }
     ]
   },
@@ -76,13 +76,13 @@
       "name": "آرع شاید",
       "handle": "@Areshayad",
       "active_configs": 0,
-      "active_proxies": 22,
+      "active_proxies": 21,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 22,
       "verified_total": 22,
-      "active_total": 22
+      "active_total": 21
     },
     {
       "rank": 5,
@@ -160,13 +160,13 @@
       "name": "⁪⁬⁮⁮",
       "handle": "@Manambiname",
       "active_configs": 0,
-      "active_proxies": 10,
+      "active_proxies": 11,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 10,
-      "verified_total": 10,
-      "active_total": 10
+      "verified_proxies": 11,
+      "verified_total": 11,
+      "active_total": 11
     },
     {
       "rank": 11,
