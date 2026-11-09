@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-09T16:15:46+03:30",
+  "updated_at": "2026-11-09T20:15:42+03:30",
   "summary": {
     "active_configs": 2066,
-    "active_proxies": 1185,
+    "active_proxies": 1192,
     "countries_count": 0,
-    "total_donors": 51,
+    "total_donors": 52,
     "protocols": {
       "xray:vless": 1065,
       "xray:hy2": 150,
       "xray:trojan": 290,
       "xray:ss": 330,
       "xray:vmess": 231,
-      "telegram-proxy:proxy": 1157,
-      "telegram-proxy:webproxy": 27,
+      "telegram-proxy:proxy": 1163,
+      "telegram-proxy:webproxy": 28,
       "telegram-proxy:socks": 1
     },
     "countries": [
@@ -20,10 +20,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 2066,
-        "proxies_count": 1185,
+        "proxies_count": 1192,
         "avg_config_ping": 152.6,
-        "avg_proxy_ping": 104.5,
-        "total": 3251
+        "avg_proxy_ping": 121.1,
+        "total": 3258
       }
     ]
   },
@@ -48,13 +48,13 @@
       "name": "➜ Пархам",
       "handle": "@parhamzamen",
       "active_configs": 21,
-      "active_proxies": 194,
+      "active_proxies": 193,
       "verified_configs": 0,
       "verified_subs": 199,
       "verified_files": 21,
       "verified_proxies": 199,
       "verified_total": 220,
-      "active_total": 215
+      "active_total": 214
     },
     {
       "rank": 3,
@@ -62,13 +62,13 @@
       "name": "𝐊𝐚𝐦𝐲𝐚𝐫",
       "handle": "@kamyar_Am2",
       "active_configs": 71,
-      "active_proxies": 21,
+      "active_proxies": 28,
       "verified_configs": 0,
       "verified_subs": 95,
       "verified_files": 0,
-      "verified_proxies": 27,
-      "verified_total": 122,
-      "active_total": 92
+      "verified_proxies": 34,
+      "verified_total": 129,
+      "active_total": 99
     },
     {
       "rank": 4,
@@ -128,6 +128,20 @@
     },
     {
       "rank": 8,
+      "user_id": 7232242231,
+      "name": "мσнα∂єѕєн",
+      "handle": "@mhdeseh_ri",
+      "active_configs": 1,
+      "active_proxies": 21,
+      "verified_configs": 1,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 21,
+      "verified_total": 22,
+      "active_total": 22
+    },
+    {
+      "rank": 9,
       "user_id": 7952237726,
       "name": "امیرپارسا گودمن",
       "handle": "@xsparvin",
@@ -138,20 +152,6 @@
       "verified_files": 0,
       "verified_proxies": 1,
       "verified_total": 22,
-      "active_total": 19
-    },
-    {
-      "rank": 9,
-      "user_id": 7232242231,
-      "name": "мσнα∂єѕєн",
-      "handle": "@mhdeseh_ri",
-      "active_configs": 1,
-      "active_proxies": 18,
-      "verified_configs": 1,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 18,
-      "verified_total": 19,
       "active_total": 19
     },
     {
@@ -646,6 +646,20 @@
     },
     {
       "rank": 45,
+      "user_id": 7799634996,
+      "name": "Shayrad",
+      "handle": "@ShayradIR",
+      "active_configs": 0,
+      "active_proxies": 1,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 1,
+      "verified_total": 1,
+      "active_total": 1
+    },
+    {
+      "rank": 46,
       "user_id": 8924397483,
       "name": "yooo",
       "handle": "@v_o_i_d_x_01",
@@ -659,7 +673,7 @@
       "active_total": 1
     },
     {
-      "rank": 46,
+      "rank": 47,
       "user_id": 8829352485,
       "name": "404 support",
       "handle": "@e404support",
@@ -673,7 +687,7 @@
       "active_total": 0
     },
     {
-      "rank": 47,
+      "rank": 48,
       "user_id": 5737414011,
       "name": "Arsalan",
       "handle": "@imnotarsalan",
@@ -687,7 +701,7 @@
       "active_total": 0
     },
     {
-      "rank": 48,
+      "rank": 49,
       "user_id": 178006943,
       "name": "amir",
       "handle": "",
@@ -701,7 +715,7 @@
       "active_total": 0
     },
     {
-      "rank": 49,
+      "rank": 50,
       "user_id": 272705767,
       "name": "bahad",
       "handle": "@imbahad",
@@ -715,7 +729,7 @@
       "active_total": 0
     },
     {
-      "rank": 50,
+      "rank": 51,
       "user_id": 7979591794,
       "name": "آزاد",
       "handle": "@Azad1777",
@@ -729,7 +743,7 @@
       "active_total": 0
     },
     {
-      "rank": 51,
+      "rank": 52,
       "user_id": 8760912053,
       "name": "...♡",
       "handle": "",
