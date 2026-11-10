@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T08:15:15+03:30",
+  "updated_at": "2026-11-10T12:15:49+03:30",
   "summary": {
     "active_configs": 2133,
-    "active_proxies": 1207,
+    "active_proxies": 1228,
     "countries_count": 0,
     "total_donors": 64,
     "protocols": {
@@ -11,7 +11,7 @@
       "xray:ss": 349,
       "xray:trojan": 295,
       "xray:vmess": 236,
-      "telegram-proxy:proxy": 1177,
+      "telegram-proxy:proxy": 1198,
       "telegram-proxy:webproxy": 29,
       "telegram-proxy:socks": 1
     },
@@ -20,10 +20,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 2133,
-        "proxies_count": 1207,
+        "proxies_count": 1228,
         "avg_config_ping": 137.9,
-        "avg_proxy_ping": 116.8,
-        "total": 3340
+        "avg_proxy_ping": 125.6,
+        "total": 3361
       }
     ]
   },
@@ -104,13 +104,13 @@
       "name": "آرع شاید",
       "handle": "@Areshayad",
       "active_configs": 0,
-      "active_proxies": 47,
+      "active_proxies": 46,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 50,
       "verified_total": 50,
-      "active_total": 47
+      "active_total": 46
     },
     {
       "rank": 7,
@@ -132,13 +132,13 @@
       "name": "𝗣𝗹𝗮𝗻🅱️𝗻𝗲𝘁 𝘀𝘂𝗽𝗽𝗼𝗿𝘁",
       "handle": "@planbHelp",
       "active_configs": 25,
-      "active_proxies": 2,
+      "active_proxies": 3,
       "verified_configs": 38,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 3,
-      "verified_total": 41,
-      "active_total": 27
+      "verified_proxies": 4,
+      "verified_total": 42,
+      "active_total": 28
     },
     {
       "rank": 9,
@@ -146,16 +146,44 @@
       "name": "мσнα∂єѕєн",
       "handle": "@mhdeseh_ri",
       "active_configs": 2,
-      "active_proxies": 21,
+      "active_proxies": 23,
       "verified_configs": 2,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 21,
-      "verified_total": 23,
-      "active_total": 23
+      "verified_proxies": 23,
+      "verified_total": 25,
+      "active_total": 25
     },
     {
       "rank": 10,
+      "user_id": 1695622859,
+      "name": "R",
+      "handle": "",
+      "active_configs": 2,
+      "active_proxies": 22,
+      "verified_configs": 3,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 22,
+      "verified_total": 25,
+      "active_total": 24
+    },
+    {
+      "rank": 11,
+      "user_id": 5493948300,
+      "name": "M C",
+      "handle": "@WoW_GLG",
+      "active_configs": 2,
+      "active_proxies": 19,
+      "verified_configs": 2,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 20,
+      "verified_total": 22,
+      "active_total": 21
+    },
+    {
+      "rank": 12,
       "user_id": 99021743,
       "name": "A❤️ MORTEZAIE",
       "handle": "@adel_mm8957",
@@ -169,7 +197,7 @@
       "active_total": 20
     },
     {
-      "rank": 11,
+      "rank": 13,
       "user_id": 7952237726,
       "name": "امیرپارسا گودمن",
       "handle": "@xsparvin",
@@ -183,7 +211,7 @@
       "active_total": 19
     },
     {
-      "rank": 12,
+      "rank": 14,
       "user_id": 7614395843,
       "name": "N ! M A",
       "handle": "@Nima_music1",
@@ -197,21 +225,7 @@
       "active_total": 19
     },
     {
-      "rank": 13,
-      "user_id": 5493948300,
-      "name": "M C",
-      "handle": "@WoW_GLG",
-      "active_configs": 2,
-      "active_proxies": 16,
-      "verified_configs": 2,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 17,
-      "verified_total": 19,
-      "active_total": 18
-    },
-    {
-      "rank": 14,
+      "rank": 15,
       "user_id": 6410080561,
       "name": "ADMIN 🟢",
       "handle": "@daily_configs_admin",
@@ -225,7 +239,7 @@
       "active_total": 17
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user_id": 1288861141,
       "name": "Mahdyar",
       "handle": "@Mahdyar30",
@@ -239,7 +253,7 @@
       "active_total": 16
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user_id": 8149967774,
       "name": "...",
       "handle": "@Intlnet",
@@ -253,7 +267,7 @@
       "active_total": 14
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user_id": 1507564545,
       "name": "⁪⁬⁮⁮",
       "handle": "@Manambiname",
@@ -267,7 +281,7 @@
       "active_total": 14
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user_id": 8789800209,
       "name": "🆁🅰🅼🅸🅽",
       "handle": "",
@@ -281,7 +295,7 @@
       "active_total": 13
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user_id": 758181508,
       "name": "| محمدزاده |",
       "handle": "@MohammadzadehAds",
@@ -295,7 +309,7 @@
       "active_total": 12
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user_id": 6195761783,
       "name": "Support | پشتیبانی",
       "handle": "@ArsalanVpn_support",
@@ -309,7 +323,7 @@
       "active_total": 11
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user_id": 588046471,
       "name": "Heretic",
       "handle": "@elder_god_fm",
@@ -323,7 +337,7 @@
       "active_total": 11
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user_id": 368328219,
       "name": "V_Designer",
       "handle": "@V_Designer",
@@ -337,7 +351,7 @@
       "active_total": 8
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user_id": 8456395795,
       "name": "K2 support🛡️",
       "handle": "@K2support",
@@ -351,7 +365,7 @@
       "active_total": 8
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user_id": 6991982333,
       "name": "Hasani",
       "handle": "",
@@ -365,7 +379,7 @@
       "active_total": 7
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user_id": 501383996,
       "name": "🔹Iraj.sany🔹",
       "handle": "@Irajsany",
@@ -379,7 +393,7 @@
       "active_total": 6
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user_id": 1594553953,
       "name": "Dr Farhad",
       "handle": "@Kingghm",
@@ -393,7 +407,7 @@
       "active_total": 6
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user_id": 297212235,
       "name": "Hassan️️.Gh.K",
       "handle": "@hgh1370",
@@ -407,7 +421,7 @@
       "active_total": 6
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user_id": 7503111143,
       "name": "𝗬𝗼𝘀𝗲𝗳 ᵕ̈",
       "handle": "@DARK_YOSEF",
@@ -419,20 +433,6 @@
       "verified_proxies": 0,
       "verified_total": 6,
       "active_total": 6
-    },
-    {
-      "rank": 29,
-      "user_id": 1695622859,
-      "name": "R",
-      "handle": "",
-      "active_configs": 2,
-      "active_proxies": 3,
-      "verified_configs": 3,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 3,
-      "verified_total": 6,
-      "active_total": 5
     },
     {
       "rank": 30,
