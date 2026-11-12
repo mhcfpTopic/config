@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T04:15:52+03:30",
+  "updated_at": "2026-11-12T08:15:28+03:30",
   "summary": {
     "active_configs": 4099,
-    "active_proxies": 1275,
+    "active_proxies": 1280,
     "countries_count": 0,
     "total_donors": 76,
     "protocols": {
@@ -11,19 +11,18 @@
       "xray:vless": 2284,
       "xray:ss": 354,
       "xray:vmess": 647,
-      "telegram-proxy:proxy": 1242,
-      "telegram-proxy:webproxy": 32,
-      "telegram-proxy:socks": 1
+      "telegram-proxy:proxy": 1248,
+      "telegram-proxy:webproxy": 32
     },
     "countries": [
       {
         "code": "XX",
         "name": "Unknown",
         "configs_count": 4099,
-        "proxies_count": 1275,
+        "proxies_count": 1280,
         "avg_config_ping": 143.0,
-        "avg_proxy_ping": 155.6,
-        "total": 5374
+        "avg_proxy_ping": 112.2,
+        "total": 5379
       }
     ]
   },
@@ -76,13 +75,13 @@
       "name": "آرع شاید",
       "handle": "@Areshayad",
       "active_configs": 0,
-      "active_proxies": 76,
+      "active_proxies": 83,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 86,
-      "verified_total": 86,
-      "active_total": 76
+      "verified_proxies": 93,
+      "verified_total": 93,
+      "active_total": 83
     },
     {
       "rank": 5,
@@ -160,13 +159,13 @@
       "name": "꧁ʀᴜɴᴀ꧂",
       "handle": "@xNEARx",
       "active_configs": 25,
-      "active_proxies": 10,
+      "active_proxies": 11,
       "verified_configs": 25,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 10,
-      "verified_total": 35,
-      "active_total": 35
+      "verified_proxies": 11,
+      "verified_total": 36,
+      "active_total": 36
     },
     {
       "rank": 11,
@@ -1081,8 +1080,8 @@
     {
       "rank": 76,
       "user_id": 8539103559,
-      "name": "نادر",
-      "handle": "@nader137906",
+      "name": ".",
+      "handle": "",
       "active_configs": 0,
       "active_proxies": 0,
       "verified_configs": 1,
