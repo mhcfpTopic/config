@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T08:15:28+03:30",
+  "updated_at": "2026-11-12T12:15:26+03:30",
   "summary": {
     "active_configs": 4099,
-    "active_proxies": 1280,
+    "active_proxies": 1292,
     "countries_count": 0,
     "total_donors": 76,
     "protocols": {
@@ -11,7 +11,7 @@
       "xray:vless": 2284,
       "xray:ss": 354,
       "xray:vmess": 647,
-      "telegram-proxy:proxy": 1248,
+      "telegram-proxy:proxy": 1260,
       "telegram-proxy:webproxy": 32
     },
     "countries": [
@@ -19,10 +19,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 4099,
-        "proxies_count": 1280,
+        "proxies_count": 1292,
         "avg_config_ping": 143.0,
-        "avg_proxy_ping": 112.2,
-        "total": 5379
+        "avg_proxy_ping": 90.0,
+        "total": 5391
       }
     ]
   },
@@ -47,13 +47,13 @@
       "name": "➜ ❆Пархам❆",
       "handle": "@parhamzamen",
       "active_configs": 21,
-      "active_proxies": 179,
+      "active_proxies": 178,
       "verified_configs": 0,
       "verified_subs": 204,
       "verified_files": 21,
       "verified_proxies": 199,
       "verified_total": 225,
-      "active_total": 200
+      "active_total": 199
     },
     {
       "rank": 3,
@@ -75,13 +75,13 @@
       "name": "آرع شاید",
       "handle": "@Areshayad",
       "active_configs": 0,
-      "active_proxies": 83,
+      "active_proxies": 96,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 93,
-      "verified_total": 93,
-      "active_total": 83
+      "verified_proxies": 106,
+      "verified_total": 106,
+      "active_total": 96
     },
     {
       "rank": 5,
@@ -127,6 +127,20 @@
     },
     {
       "rank": 8,
+      "user_id": 5563025346,
+      "name": "꧁ʀᴜɴᴀ꧂",
+      "handle": "@xNEARx",
+      "active_configs": 25,
+      "active_proxies": 16,
+      "verified_configs": 25,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 16,
+      "verified_total": 41,
+      "active_total": 41
+    },
+    {
+      "rank": 9,
       "user_id": 6195761783,
       "name": "Support | پشتیبانی",
       "handle": "@ArsalanVpn_support",
@@ -140,7 +154,7 @@
       "active_total": 38
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user_id": 758181508,
       "name": "| محمدزاده |",
       "handle": "@MohammadzadehAds",
@@ -152,20 +166,6 @@
       "verified_proxies": 0,
       "verified_total": 50,
       "active_total": 38
-    },
-    {
-      "rank": 10,
-      "user_id": 5563025346,
-      "name": "꧁ʀᴜɴᴀ꧂",
-      "handle": "@xNEARx",
-      "active_configs": 25,
-      "active_proxies": 11,
-      "verified_configs": 25,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 11,
-      "verified_total": 36,
-      "active_total": 36
     },
     {
       "rank": 11,
@@ -257,13 +257,13 @@
       "name": "N ! M A",
       "handle": "@Nima_music1",
       "active_configs": 0,
-      "active_proxies": 24,
+      "active_proxies": 25,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 24,
-      "verified_total": 24,
-      "active_total": 24
+      "verified_proxies": 25,
+      "verified_total": 25,
+      "active_total": 25
     },
     {
       "rank": 18,
@@ -299,13 +299,13 @@
       "name": "꧁𝐀᷍𝐁᷍𝐎᷍𝐙᷍𝐀᷍𝐑᷍꧂ 𝟘𝟛:𝟛𝟠",
       "handle": "@ownerMOONCITYgroup",
       "active_configs": 0,
-      "active_proxies": 22,
+      "active_proxies": 21,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 23,
       "verified_total": 23,
-      "active_total": 22
+      "active_total": 21
     },
     {
       "rank": 21,
@@ -397,13 +397,13 @@
       "name": "Heretic",
       "handle": "@elder_god_fm",
       "active_configs": 1,
-      "active_proxies": 10,
+      "active_proxies": 11,
       "verified_configs": 1,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 11,
-      "verified_total": 12,
-      "active_total": 11
+      "verified_proxies": 12,
+      "verified_total": 13,
+      "active_total": 12
     },
     {
       "rank": 28,
