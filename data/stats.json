@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-13T08:15:40+03:30",
+  "updated_at": "2026-11-13T12:15:53+03:30",
   "summary": {
     "active_configs": 3864,
-    "active_proxies": 1263,
+    "active_proxies": 1260,
     "countries_count": 0,
     "total_donors": 80,
     "protocols": {
@@ -11,18 +11,18 @@
       "xray:trojan": 565,
       "xray:vmess": 673,
       "xray:ss": 356,
-      "telegram-proxy:proxy": 1231,
-      "telegram-proxy:webproxy": 32
+      "telegram-proxy:proxy": 1230,
+      "telegram-proxy:webproxy": 30
     },
     "countries": [
       {
         "code": "XX",
         "name": "Unknown",
         "configs_count": 3864,
-        "proxies_count": 1263,
+        "proxies_count": 1260,
         "avg_config_ping": 133.8,
-        "avg_proxy_ping": 111.1,
-        "total": 5127
+        "avg_proxy_ping": 99.4,
+        "total": 5124
       }
     ]
   },
@@ -47,13 +47,13 @@
       "name": "➜ ❆Пархам❆",
       "handle": "@parhamzamen",
       "active_configs": 20,
-      "active_proxies": 169,
+      "active_proxies": 168,
       "verified_configs": 0,
       "verified_subs": 205,
       "verified_files": 21,
       "verified_proxies": 199,
       "verified_total": 226,
-      "active_total": 189
+      "active_total": 188
     },
     {
       "rank": 3,
@@ -99,20 +99,6 @@
     },
     {
       "rank": 6,
-      "user_id": 6216104224,
-      "name": "𝗦𝘂𝗽 𝗠𝗶𝗴𝗠𝗶𝗴𝗩𝗣𝗡",
-      "handle": "@MigMigVPNSupport",
-      "active_configs": 33,
-      "active_proxies": 19,
-      "verified_configs": 63,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 30,
-      "verified_total": 93,
-      "active_total": 52
-    },
-    {
-      "rank": 7,
       "user_id": 5563025346,
       "name": "꧁ʀᴜɴᴀ꧂",
       "handle": "@xNEARx",
@@ -124,6 +110,20 @@
       "verified_proxies": 17,
       "verified_total": 52,
       "active_total": 52
+    },
+    {
+      "rank": 7,
+      "user_id": 6216104224,
+      "name": "𝗦𝘂𝗽 𝗠𝗶𝗴𝗠𝗶𝗴𝗩𝗣𝗡",
+      "handle": "@MigMigVPNSupport",
+      "active_configs": 33,
+      "active_proxies": 18,
+      "verified_configs": 63,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 30,
+      "verified_total": 93,
+      "active_total": 51
     },
     {
       "rank": 8,
@@ -141,6 +141,20 @@
     },
     {
       "rank": 9,
+      "user_id": 7728803186,
+      "name": "𝗣𝗹𝗮𝗻🅱️𝗻𝗲𝘁 𝘀𝘂𝗽𝗽𝗼𝗿𝘁",
+      "handle": "@planbHelp",
+      "active_configs": 34,
+      "active_proxies": 13,
+      "verified_configs": 67,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 14,
+      "verified_total": 81,
+      "active_total": 47
+    },
+    {
+      "rank": 10,
       "user_id": 6395979110,
       "name": "ડꪖꪑꪖꪀ",
       "handle": "@Samanwn",
@@ -152,20 +166,6 @@
       "verified_proxies": 48,
       "verified_total": 48,
       "active_total": 47
-    },
-    {
-      "rank": 10,
-      "user_id": 7728803186,
-      "name": "𝗣𝗹𝗮𝗻🅱️𝗻𝗲𝘁 𝘀𝘂𝗽𝗽𝗼𝗿𝘁",
-      "handle": "@planbHelp",
-      "active_configs": 34,
-      "active_proxies": 11,
-      "verified_configs": 67,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 12,
-      "verified_total": 79,
-      "active_total": 45
     },
     {
       "rank": 11,
@@ -225,6 +225,20 @@
     },
     {
       "rank": 15,
+      "user_id": 7614395843,
+      "name": "N ! M A",
+      "handle": "@Nima_music1",
+      "active_configs": 0,
+      "active_proxies": 30,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 30,
+      "verified_total": 30,
+      "active_total": 30
+    },
+    {
+      "rank": 16,
       "user_id": 2069393054,
       "name": "꧁𝐀᷍𝐁᷍𝐎᷍𝐙᷍𝐀᷍𝐑᷍꧂ 𝟘𝟝:𝟝𝟙",
       "handle": "@ownerMOONCITYgroup",
@@ -238,21 +252,21 @@
       "active_total": 28
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user_id": 5493948300,
       "name": "M C",
       "handle": "@WoW_GLG",
       "active_configs": 3,
-      "active_proxies": 25,
+      "active_proxies": 24,
       "verified_configs": 3,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 28,
       "verified_total": 31,
-      "active_total": 28
+      "active_total": 27
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user_id": 8789800209,
       "name": "🆁🅰🅼🅸🅽",
       "handle": "",
@@ -263,20 +277,6 @@
       "verified_files": 0,
       "verified_proxies": 16,
       "verified_total": 37,
-      "active_total": 26
-    },
-    {
-      "rank": 18,
-      "user_id": 7614395843,
-      "name": "N ! M A",
-      "handle": "@Nima_music1",
-      "active_configs": 0,
-      "active_proxies": 26,
-      "verified_configs": 0,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 26,
-      "verified_total": 26,
       "active_total": 26
     },
     {
