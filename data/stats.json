@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-14T04:15:50+03:30",
+  "updated_at": "2026-11-14T08:15:40+03:30",
   "summary": {
     "active_configs": 3757,
-    "active_proxies": 1326,
+    "active_proxies": 1323,
     "countries_count": 0,
     "total_donors": 83,
     "protocols": {
@@ -11,7 +11,7 @@
       "xray:vmess": 669,
       "xray:trojan": 566,
       "xray:ss": 356,
-      "telegram-proxy:proxy": 1298,
+      "telegram-proxy:proxy": 1295,
       "telegram-proxy:webproxy": 28
     },
     "countries": [
@@ -19,10 +19,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 3757,
-        "proxies_count": 1326,
+        "proxies_count": 1323,
         "avg_config_ping": 127.4,
-        "avg_proxy_ping": 128.1,
-        "total": 5083
+        "avg_proxy_ping": 130.0,
+        "total": 5080
       }
     ]
   },
@@ -61,13 +61,13 @@
       "name": "➜ ❆Пархам❆",
       "handle": "@parhamzamen",
       "active_configs": 14,
-      "active_proxies": 168,
+      "active_proxies": 167,
       "verified_configs": 0,
       "verified_subs": 205,
       "verified_files": 21,
       "verified_proxies": 199,
       "verified_total": 226,
-      "active_total": 182
+      "active_total": 181
     },
     {
       "rank": 4,
@@ -183,20 +183,6 @@
     },
     {
       "rank": 12,
-      "user_id": 99021743,
-      "name": "A❤️ MORTEZAIE",
-      "handle": "@adel_mm8957",
-      "active_configs": 23,
-      "active_proxies": 15,
-      "verified_configs": 38,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 16,
-      "verified_total": 54,
-      "active_total": 38
-    },
-    {
-      "rank": 13,
       "user_id": 5493948300,
       "name": "M C",
       "handle": "@WoW_GLG",
@@ -208,6 +194,20 @@
       "verified_proxies": 37,
       "verified_total": 42,
       "active_total": 38
+    },
+    {
+      "rank": 13,
+      "user_id": 99021743,
+      "name": "A❤️ MORTEZAIE",
+      "handle": "@adel_mm8957",
+      "active_configs": 23,
+      "active_proxies": 14,
+      "verified_configs": 38,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 16,
+      "verified_total": 54,
+      "active_total": 37
     },
     {
       "rank": 14,
@@ -271,13 +271,13 @@
       "name": "Heretic",
       "handle": "@elder_god_fm",
       "active_configs": 6,
-      "active_proxies": 20,
+      "active_proxies": 19,
       "verified_configs": 7,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 25,
       "verified_total": 32,
-      "active_total": 26
+      "active_total": 25
     },
     {
       "rank": 19,
