@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-14T12:15:46+03:30",
+  "updated_at": "2026-11-14T16:15:44+03:30",
   "summary": {
     "active_configs": 3757,
-    "active_proxies": 1335,
+    "active_proxies": 1336,
     "countries_count": 0,
     "total_donors": 85,
     "protocols": {
@@ -11,18 +11,18 @@
       "xray:vmess": 669,
       "xray:trojan": 566,
       "xray:ss": 356,
-      "telegram-proxy:proxy": 1307,
-      "telegram-proxy:webproxy": 28
+      "telegram-proxy:webproxy": 28,
+      "telegram-proxy:proxy": 1308
     },
     "countries": [
       {
         "code": "XX",
         "name": "Unknown",
         "configs_count": 3757,
-        "proxies_count": 1335,
+        "proxies_count": 1336,
         "avg_config_ping": 127.4,
-        "avg_proxy_ping": 113.1,
-        "total": 5092
+        "avg_proxy_ping": 113.5,
+        "total": 5093
       }
     ]
   },
@@ -61,13 +61,13 @@
       "name": "➜ ❆Пархам❆",
       "handle": "@parhamzamen",
       "active_configs": 14,
-      "active_proxies": 166,
+      "active_proxies": 165,
       "verified_configs": 0,
       "verified_subs": 205,
       "verified_files": 21,
       "verified_proxies": 199,
       "verified_total": 226,
-      "active_total": 180
+      "active_total": 179
     },
     {
       "rank": 4,
@@ -103,13 +103,13 @@
       "name": "꧁ʀᴜɴᴀ꧂",
       "handle": "@xNEARx",
       "active_configs": 44,
-      "active_proxies": 22,
+      "active_proxies": 26,
       "verified_configs": 44,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 22,
-      "verified_total": 66,
-      "active_total": 66
+      "verified_proxies": 26,
+      "verified_total": 70,
+      "active_total": 70
     },
     {
       "rank": 7,
@@ -225,6 +225,20 @@
     },
     {
       "rank": 15,
+      "user_id": 2069393054,
+      "name": "꧁𝐀᷍𝐁᷍𝐎᷍𝐙᷍𝐀᷍𝐑᷍꧂ 𝟙𝟚:𝟜𝟝",
+      "handle": "@ownerMOONCITYgroup",
+      "active_configs": 0,
+      "active_proxies": 33,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 36,
+      "verified_total": 36,
+      "active_total": 33
+    },
+    {
+      "rank": 16,
       "user_id": 7614395843,
       "name": "N ! M A",
       "handle": "@Nima_music1",
@@ -238,7 +252,7 @@
       "active_total": 32
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user_id": 8149967774,
       "name": "...",
       "handle": "@Intlnet",
@@ -250,20 +264,6 @@
       "verified_proxies": 17,
       "verified_total": 63,
       "active_total": 31
-    },
-    {
-      "rank": 17,
-      "user_id": 2069393054,
-      "name": "꧁𝐀᷍𝐁᷍𝐎᷍𝐙᷍𝐀᷍𝐑᷍꧂ 𝟙𝟟:𝟜𝟜",
-      "handle": "@ownerMOONCITYgroup",
-      "active_configs": 0,
-      "active_proxies": 30,
-      "verified_configs": 0,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 33,
-      "verified_total": 33,
-      "active_total": 30
     },
     {
       "rank": 18,
@@ -603,6 +603,20 @@
     },
     {
       "rank": 42,
+      "user_id": 5636352593,
+      "name": "Taha",
+      "handle": "@TAHA148pro",
+      "active_configs": 0,
+      "active_proxies": 3,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 6,
+      "verified_total": 6,
+      "active_total": 3
+    },
+    {
+      "rank": 43,
       "user_id": 8814258238,
       "name": "𝓝𝓸𝓸𝓻𝓪",
       "handle": "@Noooraa2003",
@@ -616,7 +630,7 @@
       "active_total": 3
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user_id": 7291125404,
       "name": "𝗔𝗱𝗺𝗶𝗻",
       "handle": "@iPCHAD",
@@ -630,7 +644,7 @@
       "active_total": 3
     },
     {
-      "rank": 44,
+      "rank": 45,
       "user_id": 8760912053,
       "name": "...♡",
       "handle": "",
@@ -644,7 +658,7 @@
       "active_total": 2
     },
     {
-      "rank": 45,
+      "rank": 46,
       "user_id": 272705767,
       "name": "bahad",
       "handle": "@imbahad",
@@ -658,7 +672,7 @@
       "active_total": 2
     },
     {
-      "rank": 46,
+      "rank": 47,
       "user_id": 7503111143,
       "name": "𝗬𝗼𝘀𝗲𝗳 ᵕ̈",
       "handle": "@DARK_YOSEF",
@@ -669,20 +683,6 @@
       "verified_files": 0,
       "verified_proxies": 0,
       "verified_total": 6,
-      "active_total": 2
-    },
-    {
-      "rank": 47,
-      "user_id": 5636352593,
-      "name": "Taha",
-      "handle": "@TAHA148pro",
-      "active_configs": 0,
-      "active_proxies": 2,
-      "verified_configs": 0,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 5,
-      "verified_total": 5,
       "active_total": 2
     },
     {
