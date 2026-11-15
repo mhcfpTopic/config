@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T04:15:53+03:30",
+  "updated_at": "2026-11-15T08:15:14+03:30",
   "summary": {
     "active_configs": 4675,
     "active_proxies": 1349,
@@ -21,7 +21,7 @@
         "configs_count": 4675,
         "proxies_count": 1349,
         "avg_config_ping": 137.6,
-        "avg_proxy_ping": 158.7,
+        "avg_proxy_ping": 126.1,
         "total": 6024
       }
     ]
