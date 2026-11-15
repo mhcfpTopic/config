@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T12:15:14+03:30",
+  "updated_at": "2026-11-15T16:15:44+03:30",
   "summary": {
     "active_configs": 4675,
-    "active_proxies": 1356,
+    "active_proxies": 1362,
     "countries_count": 0,
     "total_donors": 87,
     "protocols": {
@@ -11,7 +11,7 @@
       "xray:trojan": 762,
       "xray:ss": 421,
       "xray:vmess": 668,
-      "telegram-proxy:proxy": 1328,
+      "telegram-proxy:proxy": 1334,
       "telegram-proxy:webproxy": 28
     },
     "countries": [
@@ -19,10 +19,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 4675,
-        "proxies_count": 1356,
+        "proxies_count": 1362,
         "avg_config_ping": 137.6,
-        "avg_proxy_ping": 118.0,
-        "total": 6031
+        "avg_proxy_ping": 168.0,
+        "total": 6037
       }
     ]
   },
@@ -89,13 +89,13 @@
       "name": "꧁ʀᴜɴᴀ꧂",
       "handle": "@xNEARx",
       "active_configs": 54,
-      "active_proxies": 30,
+      "active_proxies": 35,
       "verified_configs": 55,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 30,
-      "verified_total": 85,
-      "active_total": 84
+      "verified_proxies": 35,
+      "verified_total": 90,
+      "active_total": 89
     },
     {
       "rank": 6,
@@ -131,13 +131,13 @@
       "name": "𝗦𝘂𝗽 𝗠𝗶𝗴𝗠𝗶𝗴𝗩𝗣𝗡",
       "handle": "@MigMigVPNSupport",
       "active_configs": 34,
-      "active_proxies": 17,
+      "active_proxies": 16,
       "verified_configs": 81,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 30,
       "verified_total": 111,
-      "active_total": 51
+      "active_total": 50
     },
     {
       "rank": 9,
@@ -267,6 +267,20 @@
     },
     {
       "rank": 18,
+      "user_id": 227166031,
+      "name": "𝐍𝐚𝐬𝐫𝐢𝐧",
+      "handle": "@Kzi4321",
+      "active_configs": 0,
+      "active_proxies": 27,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 28,
+      "verified_total": 28,
+      "active_total": 27
+    },
+    {
+      "rank": 19,
       "user_id": 7232242231,
       "name": "мσнα∂єѕєн",
       "handle": "@mhdeseh_ri",
@@ -280,7 +294,7 @@
       "active_total": 25
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user_id": 8149967774,
       "name": "...",
       "handle": "@Intlnet",
@@ -294,7 +308,7 @@
       "active_total": 24
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user_id": 588046471,
       "name": "Heretic",
       "handle": "@elder_god_fm",
@@ -308,7 +322,7 @@
       "active_total": 23
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user_id": 7979591794,
       "name": "آزاد",
       "handle": "@Azad1777",
@@ -322,7 +336,7 @@
       "active_total": 23
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user_id": 1507564545,
       "name": "⁪⁬⁮⁮",
       "handle": "@Manambiname",
@@ -334,20 +348,6 @@
       "verified_proxies": 24,
       "verified_total": 24,
       "active_total": 23
-    },
-    {
-      "rank": 23,
-      "user_id": 227166031,
-      "name": "𝐍𝐚𝐬𝐫𝐢𝐧",
-      "handle": "@Kzi4321",
-      "active_configs": 0,
-      "active_proxies": 22,
-      "verified_configs": 0,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 23,
-      "verified_total": 23,
-      "active_total": 22
     },
     {
       "rank": 24,
