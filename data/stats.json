@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T08:15:14+03:30",
+  "updated_at": "2026-11-15T12:15:14+03:30",
   "summary": {
     "active_configs": 4675,
-    "active_proxies": 1349,
+    "active_proxies": 1356,
     "countries_count": 0,
     "total_donors": 87,
     "protocols": {
@@ -11,18 +11,18 @@
       "xray:trojan": 762,
       "xray:ss": 421,
       "xray:vmess": 668,
-      "telegram-proxy:proxy": 1322,
-      "telegram-proxy:webproxy": 27
+      "telegram-proxy:proxy": 1328,
+      "telegram-proxy:webproxy": 28
     },
     "countries": [
       {
         "code": "XX",
         "name": "Unknown",
         "configs_count": 4675,
-        "proxies_count": 1349,
+        "proxies_count": 1356,
         "avg_config_ping": 137.6,
-        "avg_proxy_ping": 126.1,
-        "total": 6024
+        "avg_proxy_ping": 118.0,
+        "total": 6031
       }
     ]
   },
@@ -89,13 +89,13 @@
       "name": "꧁ʀᴜɴᴀ꧂",
       "handle": "@xNEARx",
       "active_configs": 54,
-      "active_proxies": 26,
+      "active_proxies": 30,
       "verified_configs": 55,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 26,
-      "verified_total": 81,
-      "active_total": 80
+      "verified_proxies": 30,
+      "verified_total": 85,
+      "active_total": 84
     },
     {
       "rank": 6,
@@ -212,16 +212,16 @@
     {
       "rank": 14,
       "user_id": 2069393054,
-      "name": "꧁𝐀᷍𝐁᷍𝐎᷍𝐙᷍𝐀᷍𝐑᷍꧂ 𝟚𝟙:𝟚𝟘",
+      "name": "꧁𝐀᷍𝐁᷍𝐎᷍𝐙᷍𝐀᷍𝐑᷍꧂ ¹⁰:²⁷",
       "handle": "@ownerMOONCITYgroup",
       "active_configs": 0,
-      "active_proxies": 35,
+      "active_proxies": 39,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 39,
-      "verified_total": 39,
-      "active_total": 35
+      "verified_proxies": 44,
+      "verified_total": 44,
+      "active_total": 39
     },
     {
       "rank": 15,
@@ -383,13 +383,13 @@
       "name": "Mahdyar",
       "handle": "@Mahdyar30",
       "active_configs": 19,
-      "active_proxies": 0,
+      "active_proxies": 2,
       "verified_configs": 19,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 0,
-      "verified_total": 19,
-      "active_total": 19
+      "verified_proxies": 2,
+      "verified_total": 21,
+      "active_total": 21
     },
     {
       "rank": 27,
@@ -590,7 +590,7 @@
     {
       "rank": 41,
       "user_id": 9127580945,
-      "name": "Reza",
+      "name": "Sahari🎀",
       "handle": "@Mamadreza138585",
       "active_configs": 0,
       "active_proxies": 5,
