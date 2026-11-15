@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T16:15:44+03:30",
+  "updated_at": "2026-11-15T20:15:43+03:30",
   "summary": {
     "active_configs": 4675,
-    "active_proxies": 1362,
+    "active_proxies": 1377,
     "countries_count": 0,
     "total_donors": 87,
     "protocols": {
@@ -11,7 +11,7 @@
       "xray:trojan": 762,
       "xray:ss": 421,
       "xray:vmess": 668,
-      "telegram-proxy:proxy": 1334,
+      "telegram-proxy:proxy": 1349,
       "telegram-proxy:webproxy": 28
     },
     "countries": [
@@ -19,10 +19,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 4675,
-        "proxies_count": 1362,
+        "proxies_count": 1377,
         "avg_config_ping": 137.6,
-        "avg_proxy_ping": 168.0,
-        "total": 6037
+        "avg_proxy_ping": 93.6,
+        "total": 6052
       }
     ]
   },
@@ -75,13 +75,13 @@
       "name": "آرع شاید",
       "handle": "@Areshayad",
       "active_configs": 0,
-      "active_proxies": 122,
+      "active_proxies": 131,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 138,
-      "verified_total": 138,
-      "active_total": 122
+      "verified_proxies": 147,
+      "verified_total": 147,
+      "active_total": 131
     },
     {
       "rank": 5,
@@ -127,20 +127,34 @@
     },
     {
       "rank": 8,
+      "user_id": 5493948300,
+      "name": "M C",
+      "handle": "@WoW_GLG",
+      "active_configs": 4,
+      "active_proxies": 48,
+      "verified_configs": 5,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 54,
+      "verified_total": 59,
+      "active_total": 52
+    },
+    {
+      "rank": 9,
       "user_id": 6216104224,
       "name": "𝗦𝘂𝗽 𝗠𝗶𝗴𝗠𝗶𝗴𝗩𝗣𝗡",
       "handle": "@MigMigVPNSupport",
       "active_configs": 34,
-      "active_proxies": 16,
+      "active_proxies": 15,
       "verified_configs": 81,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 30,
       "verified_total": 111,
-      "active_total": 50
+      "active_total": 49
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user_id": 8614779077,
       "name": "Stewie",
       "handle": "@StewieNG",
@@ -154,7 +168,7 @@
       "active_total": 49
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user_id": 6395979110,
       "name": "ડꪖꪑꪖꪀ",
       "handle": "@Samanwn",
@@ -168,7 +182,7 @@
       "active_total": 47
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user_id": 6410080561,
       "name": "ADMIN 🟢",
       "handle": "@daily_configs_admin",
@@ -180,20 +194,6 @@
       "verified_proxies": 0,
       "verified_total": 85,
       "active_total": 46
-    },
-    {
-      "rank": 12,
-      "user_id": 5493948300,
-      "name": "M C",
-      "handle": "@WoW_GLG",
-      "active_configs": 4,
-      "active_proxies": 40,
-      "verified_configs": 5,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 45,
-      "verified_total": 50,
-      "active_total": 44
     },
     {
       "rank": 13,
@@ -603,6 +603,20 @@
     },
     {
       "rank": 42,
+      "user_id": 5636352593,
+      "name": "Taha",
+      "handle": "@TAHA148pro",
+      "active_configs": 1,
+      "active_proxies": 2,
+      "verified_configs": 0,
+      "verified_subs": 1,
+      "verified_files": 0,
+      "verified_proxies": 7,
+      "verified_total": 8,
+      "active_total": 3
+    },
+    {
+      "rank": 43,
       "user_id": 8814258238,
       "name": "𝓝𝓸𝓸𝓻𝓪",
       "handle": "@Noooraa2003",
@@ -616,7 +630,7 @@
       "active_total": 3
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user_id": 7291125404,
       "name": "𝗔𝗱𝗺𝗶𝗻",
       "handle": "@iPCHAD",
@@ -630,7 +644,7 @@
       "active_total": 3
     },
     {
-      "rank": 44,
+      "rank": 45,
       "user_id": 1357363604,
       "name": "Ho3ein Yegane",
       "handle": "@ho3ein801",
@@ -644,7 +658,7 @@
       "active_total": 2
     },
     {
-      "rank": 45,
+      "rank": 46,
       "user_id": 272705767,
       "name": "bahad",
       "handle": "@imbahad",
@@ -654,20 +668,6 @@
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 4,
-      "verified_total": 7,
-      "active_total": 2
-    },
-    {
-      "rank": 46,
-      "user_id": 5636352593,
-      "name": "Taha",
-      "handle": "@TAHA148pro",
-      "active_configs": 1,
-      "active_proxies": 1,
-      "verified_configs": 0,
-      "verified_subs": 1,
-      "verified_files": 0,
-      "verified_proxies": 6,
       "verified_total": 7,
       "active_total": 2
     },
