@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-17T20:15:48+03:30",
+  "updated_at": "2026-11-18T00:15:34+03:30",
   "summary": {
     "active_configs": 1055,
-    "active_proxies": 1456,
+    "active_proxies": 1457,
     "countries_count": 0,
     "total_donors": 100,
     "protocols": {
@@ -11,7 +11,7 @@
       "xray:ss": 124,
       "xray:vmess": 157,
       "xray:trojan": 110,
-      "telegram-proxy:proxy": 1422,
+      "telegram-proxy:proxy": 1423,
       "telegram-proxy:webproxy": 34
     },
     "countries": [
@@ -19,10 +19,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 1055,
-        "proxies_count": 1456,
+        "proxies_count": 1457,
         "avg_config_ping": 164.8,
-        "avg_proxy_ping": 117.5,
-        "total": 2511
+        "avg_proxy_ping": 111.2,
+        "total": 2512
       }
     ]
   },
@@ -187,13 +187,13 @@
       "name": "N ! M A",
       "handle": "@Nima_music1",
       "active_configs": 0,
-      "active_proxies": 39,
+      "active_proxies": 40,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 39,
-      "verified_total": 39,
-      "active_total": 39
+      "verified_proxies": 40,
+      "verified_total": 40,
+      "active_total": 40
     },
     {
       "rank": 13,
@@ -477,6 +477,20 @@
     },
     {
       "rank": 33,
+      "user_id": 5554968267,
+      "name": "پشتیبانی | Novix Plus Support",
+      "handle": "@novixplus_support",
+      "active_configs": 0,
+      "active_proxies": 6,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 6,
+      "verified_total": 6,
+      "active_total": 6
+    },
+    {
+      "rank": 34,
       "user_id": 729013583,
       "name": "Ali",
       "handle": "@Ali19930906",
@@ -487,20 +501,6 @@
       "verified_files": 0,
       "verified_proxies": 6,
       "verified_total": 6,
-      "active_total": 5
-    },
-    {
-      "rank": 34,
-      "user_id": 5554968267,
-      "name": "پشتیبانی | Novix Plus Support",
-      "handle": "@novixplus_support",
-      "active_configs": 0,
-      "active_proxies": 5,
-      "verified_configs": 0,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 5,
-      "verified_total": 5,
       "active_total": 5
     },
     {
