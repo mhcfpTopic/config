@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-19T04:15:25+03:30",
+  "updated_at": "2026-11-19T08:15:32+03:30",
   "summary": {
     "active_configs": 3143,
-    "active_proxies": 1460,
+    "active_proxies": 1458,
     "countries_count": 0,
     "total_donors": 100,
     "protocols": {
@@ -11,18 +11,18 @@
       "xray:ss": 318,
       "xray:trojan": 426,
       "xray:vmess": 615,
-      "telegram-proxy:proxy": 1425,
-      "telegram-proxy:webproxy": 35
+      "telegram-proxy:proxy": 1424,
+      "telegram-proxy:webproxy": 34
     },
     "countries": [
       {
         "code": "XX",
         "name": "Unknown",
         "configs_count": 3143,
-        "proxies_count": 1460,
+        "proxies_count": 1458,
         "avg_config_ping": 141.0,
-        "avg_proxy_ping": 134.9,
-        "total": 4603
+        "avg_proxy_ping": 115.8,
+        "total": 4601
       }
     ]
   },
@@ -75,13 +75,13 @@
       "name": "𝐊𝐚𝐦𝐲𝐚𝐫",
       "handle": "@kamyar_Am2",
       "active_configs": 91,
-      "active_proxies": 111,
+      "active_proxies": 110,
       "verified_configs": 0,
       "verified_subs": 413,
       "verified_files": 0,
       "verified_proxies": 133,
       "verified_total": 546,
-      "active_total": 202
+      "active_total": 201
     },
     {
       "rank": 5,
@@ -103,13 +103,13 @@
       "name": "M C",
       "handle": "@WoW_GLG",
       "active_configs": 6,
-      "active_proxies": 58,
+      "active_proxies": 57,
       "verified_configs": 9,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 66,
       "verified_total": 75,
-      "active_total": 64
+      "active_total": 63
     },
     {
       "rank": 7,
