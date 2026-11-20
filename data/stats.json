@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-20T02:22:41+03:30",
+  "updated_at": "2026-11-20T04:15:34+03:30",
   "summary": {
     "active_configs": 3086,
-    "active_proxies": 1714,
+    "active_proxies": 1721,
     "countries_count": 0,
     "total_donors": 100,
     "protocols": {
@@ -11,7 +11,7 @@
       "xray:vmess": 632,
       "xray:ss": 346,
       "xray:trojan": 442,
-      "telegram-proxy:proxy": 1682,
+      "telegram-proxy:proxy": 1689,
       "telegram-proxy:webproxy": 32
     },
     "countries": [
@@ -19,10 +19,10 @@
         "code": "XX",
         "name": "Unknown",
         "configs_count": 3086,
-        "proxies_count": 1714,
+        "proxies_count": 1721,
         "avg_config_ping": 135.0,
-        "avg_proxy_ping": 98.5,
-        "total": 4800
+        "avg_proxy_ping": 123.5,
+        "total": 4807
       }
     ]
   },
@@ -75,13 +75,13 @@
       "name": "𝐊𝐚𝐦𝐲𝐚𝐫",
       "handle": "@kamyar_Am2",
       "active_configs": 109,
-      "active_proxies": 112,
+      "active_proxies": 119,
       "verified_configs": 0,
       "verified_subs": 421,
       "verified_files": 0,
-      "verified_proxies": 133,
-      "verified_total": 554,
-      "active_total": 221
+      "verified_proxies": 140,
+      "verified_total": 561,
+      "active_total": 228
     },
     {
       "rank": 5,
