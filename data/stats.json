@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T16:15:47+03:30",
+  "updated_at": "2026-11-20T20:15:47+03:30",
   "summary": {
     "active_configs": 3086,
     "active_proxies": 1183,
@@ -11,8 +11,8 @@
       "xray:vmess": 632,
       "xray:ss": 346,
       "xray:trojan": 442,
-      "telegram-proxy:proxy": 1150,
-      "telegram-proxy:webproxy": 33
+      "telegram-proxy:proxy": 1149,
+      "telegram-proxy:webproxy": 34
     },
     "countries": [
       {
@@ -21,7 +21,7 @@
         "configs_count": 3086,
         "proxies_count": 1183,
         "avg_config_ping": 135.0,
-        "avg_proxy_ping": 70.1,
+        "avg_proxy_ping": 53.5,
         "total": 4269
       }
     ]
@@ -75,13 +75,13 @@
       "name": "𝐊𝐚𝐦𝐲𝐚𝐫",
       "handle": "@kamyar_Am2",
       "active_configs": 109,
-      "active_proxies": 93,
+      "active_proxies": 92,
       "verified_configs": 0,
       "verified_subs": 421,
       "verified_files": 0,
       "verified_proxies": 140,
       "verified_total": 561,
-      "active_total": 202
+      "active_total": 201
     },
     {
       "rank": 5,
@@ -215,13 +215,13 @@
       "name": "N ! M A",
       "handle": "@Nima_music1",
       "active_configs": 0,
-      "active_proxies": 29,
+      "active_proxies": 28,
       "verified_configs": 0,
       "verified_subs": 0,
       "verified_files": 0,
       "verified_proxies": 45,
       "verified_total": 45,
-      "active_total": 29
+      "active_total": 28
     },
     {
       "rank": 15,
@@ -341,13 +341,13 @@
       "name": "R",
       "handle": "",
       "active_configs": 5,
-      "active_proxies": 9,
+      "active_proxies": 10,
       "verified_configs": 13,
       "verified_subs": 0,
       "verified_files": 0,
-      "verified_proxies": 33,
-      "verified_total": 46,
-      "active_total": 14
+      "verified_proxies": 34,
+      "verified_total": 47,
+      "active_total": 15
     },
     {
       "rank": 24,
@@ -449,6 +449,20 @@
     },
     {
       "rank": 31,
+      "user_id": 5554968267,
+      "name": "پشتیبانی | Novix Plus Support",
+      "handle": "@novixplus_support",
+      "active_configs": 0,
+      "active_proxies": 8,
+      "verified_configs": 0,
+      "verified_subs": 0,
+      "verified_files": 0,
+      "verified_proxies": 8,
+      "verified_total": 8,
+      "active_total": 8
+    },
+    {
+      "rank": 32,
       "user_id": 501383996,
       "name": "🔹Iraj.sany🔹",
       "handle": "@Irajsany",
@@ -462,7 +476,7 @@
       "active_total": 7
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user_id": 9127580945,
       "name": "Sahari🎀",
       "handle": "@Sahar138585",
@@ -476,7 +490,7 @@
       "active_total": 7
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user_id": 8456395795,
       "name": "K2 support🛡️",
       "handle": "@K2support",
@@ -487,20 +501,6 @@
       "verified_files": 0,
       "verified_proxies": 0,
       "verified_total": 19,
-      "active_total": 7
-    },
-    {
-      "rank": 34,
-      "user_id": 5554968267,
-      "name": "پشتیبانی | Novix Plus Support",
-      "handle": "@novixplus_support",
-      "active_configs": 0,
-      "active_proxies": 7,
-      "verified_configs": 0,
-      "verified_subs": 0,
-      "verified_files": 0,
-      "verified_proxies": 7,
-      "verified_total": 7,
       "active_total": 7
     },
     {
