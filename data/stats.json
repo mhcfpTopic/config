@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-22T04:15:56+03:30",
+  "updated_at": "2026-11-22T08:15:27+03:30",
   "summary": {
     "active_configs": 3402,
-    "active_proxies": 1215,
+    "active_proxies": 1217,
     "countries_count": 50,
     "total_donors": 100,
     "protocols": {
@@ -11,36 +11,36 @@
       "xray:ss": 408,
       "xray:vmess": 632,
       "xray:trojan": 476,
-      "telegram-proxy:proxy": 1176,
-      "telegram-proxy:webproxy": 39
+      "telegram-proxy:proxy": 1177,
+      "telegram-proxy:webproxy": 40
     },
     "countries": [
       {
         "code": "US",
         "name": "United States",
         "configs_count": 1157,
-        "proxies_count": 47,
+        "proxies_count": 49,
         "avg_config_ping": 623.1,
-        "avg_proxy_ping": 132.1,
-        "total": 1204
+        "avg_proxy_ping": 147.9,
+        "total": 1206
       },
       {
         "code": "DE",
         "name": "Germany",
         "configs_count": 296,
-        "proxies_count": 498,
+        "proxies_count": 491,
         "avg_config_ping": 500.1,
-        "avg_proxy_ping": 87.9,
-        "total": 794
+        "avg_proxy_ping": 80.7,
+        "total": 787
       },
       {
         "code": "NL",
         "name": "The Netherlands",
         "configs_count": 690,
-        "proxies_count": 58,
+        "proxies_count": 61,
         "avg_config_ping": 234.8,
-        "avg_proxy_ping": 111.7,
-        "total": 748
+        "avg_proxy_ping": 122.6,
+        "total": 751
       },
       {
         "code": "FR",
@@ -48,7 +48,7 @@
         "configs_count": 240,
         "proxies_count": 6,
         "avg_config_ping": 239.5,
-        "avg_proxy_ping": 121.8,
+        "avg_proxy_ping": 85.2,
         "total": 246
       },
       {
@@ -57,26 +57,26 @@
         "configs_count": 0,
         "proxies_count": 234,
         "avg_config_ping": 0,
-        "avg_proxy_ping": 90.2,
+        "avg_proxy_ping": 86.2,
         "total": 234
       },
       {
         "code": "PL",
         "name": "Poland",
         "configs_count": 30,
-        "proxies_count": 160,
+        "proxies_count": 162,
         "avg_config_ping": 332.1,
-        "avg_proxy_ping": 118.9,
-        "total": 190
+        "avg_proxy_ping": 110.1,
+        "total": 192
       },
       {
         "code": "FI",
         "name": "Finland",
         "configs_count": 20,
-        "proxies_count": 141,
+        "proxies_count": 148,
         "avg_config_ping": 198.2,
-        "avg_proxy_ping": 86.2,
-        "total": 161
+        "avg_proxy_ping": 90.5,
+        "total": 168
       },
       {
         "code": "CA",
@@ -93,7 +93,7 @@
         "configs_count": 97,
         "proxies_count": 6,
         "avg_config_ping": 150.5,
-        "avg_proxy_ping": 126.7,
+        "avg_proxy_ping": 111.9,
         "total": 103
       },
       {
@@ -111,7 +111,7 @@
         "configs_count": 99,
         "proxies_count": 2,
         "avg_config_ping": 438.0,
-        "avg_proxy_ping": 36.3,
+        "avg_proxy_ping": 38.2,
         "total": 101
       },
       {
@@ -129,7 +129,7 @@
         "configs_count": 58,
         "proxies_count": 6,
         "avg_config_ping": 529.1,
-        "avg_proxy_ping": 39.4,
+        "avg_proxy_ping": 39.9,
         "total": 64
       },
       {
@@ -138,17 +138,17 @@
         "configs_count": 40,
         "proxies_count": 5,
         "avg_config_ping": 432.6,
-        "avg_proxy_ping": 104.3,
+        "avg_proxy_ping": 155.7,
         "total": 45
       },
       {
         "code": "XX",
         "name": "Unknown",
         "configs_count": 11,
-        "proxies_count": 33,
+        "proxies_count": 32,
         "avg_config_ping": 4469.7,
-        "avg_proxy_ping": 457.0,
-        "total": 44
+        "avg_proxy_ping": 72.4,
+        "total": 43
       },
       {
         "code": "SE",
@@ -156,7 +156,7 @@
         "configs_count": 32,
         "proxies_count": 4,
         "avg_config_ping": 208.0,
-        "avg_proxy_ping": 137.5,
+        "avg_proxy_ping": 132.6,
         "total": 36
       },
       {
@@ -165,7 +165,7 @@
         "configs_count": 33,
         "proxies_count": 1,
         "avg_config_ping": 1625.1,
-        "avg_proxy_ping": 104.1,
+        "avg_proxy_ping": 106.7,
         "total": 34
       },
       {
@@ -183,7 +183,7 @@
         "configs_count": 25,
         "proxies_count": 4,
         "avg_config_ping": 1743.0,
-        "avg_proxy_ping": 12.8,
+        "avg_proxy_ping": 13.9,
         "total": 29
       },
       {
@@ -259,22 +259,22 @@
         "total": 11
       },
       {
-        "code": "AE",
-        "name": "United Arab Emirates",
-        "configs_count": 9,
-        "proxies_count": 1,
-        "avg_config_ping": 2293.7,
-        "avg_proxy_ping": 176.4,
-        "total": 10
-      },
-      {
         "code": "CZ",
         "name": "Czechia",
         "configs_count": 8,
         "proxies_count": 2,
         "avg_config_ping": 365.5,
-        "avg_proxy_ping": 239.7,
+        "avg_proxy_ping": 172.4,
         "total": 10
+      },
+      {
+        "code": "AE",
+        "name": "United Arab Emirates",
+        "configs_count": 9,
+        "proxies_count": 0,
+        "avg_config_ping": 2293.7,
+        "avg_proxy_ping": 0,
+        "total": 9
       },
       {
         "code": "CL",
@@ -291,7 +291,7 @@
         "configs_count": 5,
         "proxies_count": 2,
         "avg_config_ping": 486.3,
-        "avg_proxy_ping": 121.6,
+        "avg_proxy_ping": 138.4,
         "total": 7
       },
       {
@@ -318,7 +318,7 @@
         "configs_count": 4,
         "proxies_count": 1,
         "avg_config_ping": 690.4,
-        "avg_proxy_ping": 160.3,
+        "avg_proxy_ping": 195.4,
         "total": 5
       },
       {
@@ -364,15 +364,6 @@
         "proxies_count": 0,
         "avg_config_ping": 209.8,
         "avg_proxy_ping": 0,
-        "total": 3
-      },
-      {
-        "code": "IE",
-        "name": "Ireland",
-        "configs_count": 1,
-        "proxies_count": 2,
-        "avg_config_ping": 482.0,
-        "avg_proxy_ping": 114.8,
         "total": 3
       },
       {
@@ -430,15 +421,6 @@
         "total": 2
       },
       {
-        "code": "RO",
-        "name": "Romania",
-        "configs_count": 1,
-        "proxies_count": 1,
-        "avg_config_ping": 1316.2,
-        "avg_proxy_ping": 83.4,
-        "total": 2
-      },
-      {
         "code": "GR",
         "name": "Greece",
         "configs_count": 2,
@@ -457,6 +439,15 @@
         "total": 1
       },
       {
+        "code": "IE",
+        "name": "Ireland",
+        "configs_count": 1,
+        "proxies_count": 0,
+        "avg_config_ping": 482.0,
+        "avg_proxy_ping": 0,
+        "total": 1
+      },
+      {
         "code": "SK",
         "name": "Slovakia",
         "configs_count": 1,
@@ -466,12 +457,21 @@
         "total": 1
       },
       {
+        "code": "RO",
+        "name": "Romania",
+        "configs_count": 1,
+        "proxies_count": 0,
+        "avg_config_ping": 1316.2,
+        "avg_proxy_ping": 0,
+        "total": 1
+      },
+      {
         "code": "HU",
         "name": "Hungary",
         "configs_count": 0,
         "proxies_count": 1,
         "avg_config_ping": 0,
-        "avg_proxy_ping": 10.7,
+        "avg_proxy_ping": 11.4,
         "total": 1
       }
     ]
@@ -539,13 +539,13 @@
       "name": "𝐊𝐚𝐦𝐲𝐚𝐫",
       "handle": "@kamyar_Am2",
       "active_configs": 109,
-      "active_proxies": 99,
+      "active_proxies": 101,
       "verified_configs": 0,
       "verified_subs": 430,
       "verified_files": 0,
-      "verified_proxies": 150,
-      "verified_total": 580,
-      "active_total": 208
+      "verified_proxies": 152,
+      "verified_total": 582,
+      "active_total": 210
     },
     {
       "rank": 6,
